@@ -1,0 +1,393 @@
+{
+    "intents": [
+
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "Good afternoon",
+                "Hi there",
+                "What's up",
+                "Howdy",
+                "Yo",
+                "Hey buddy",
+                "Hello chatbot",
+                "Nice to meet you",
+                "Hey there",
+                "Hola",
+                "Greetings",
+                "Good to see you",
+                "Hi bot",
+                "Can we chat",
+                "Anyone there"
+            ],
+            "responses": [
+                "Hello! 😊",
+                "Hi there!",
+                "Hey! Nice to meet you!",
+                "Hello! How can I help you today?",
+                "Hey! Hope you're having a great day!",
+                "Hi! I'm here to help you.",
+                "Greetings! 👋",
+                "Welcome! Ask me anything.",
+                "Hey buddy! 😄",
+                "Hi! What would you like to talk about?",
+                "Glad to chat with you!",
+                "Hello friend! 😊"
+            ]
+        },
+
+        {
+            "tag": "user_name",
+            "patterns": [
+                "My name is John",
+                "I am Rahul",
+                "I'm Priya",
+                "Call me Alex",
+                "This is David",
+                "People call me Sam",
+                "Myself Anjali",
+                "I am Varun",
+                "I'm Kiran",
+                "You can call me Arjun"
+            ],
+            "responses": [
+                "Nice to meet you! 😊",
+                "Hello! Glad to know your name.",
+                "That's a lovely name!",
+                "Nice meeting you! How can I help you today?",
+                "Happy to chat with you! 😄",
+                "Great to meet you!",
+                "Welcome! Hope you're having a good day.",
+                "Your name sounds awesome! 😊",
+                "Glad to know you!",
+                "Nice to meet you, friend!"
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Catch you later",
+                "I am leaving",
+                "Talk to you later",
+                "See ya",
+                "Bye bye",
+                "Take care",
+                "I have to go",
+                "See you soon",
+                "Good night",
+                "Later",
+                "Catch you soon",
+                "Have a good day"
+            ],
+            "responses": [
+                "Goodbye! 👋",
+                "See you later!",
+                "Take care!",
+                "Bye! Have a wonderful day!",
+                "It was nice talking to you!",
+                "Come back again anytime!",
+                "See you soon!",
+                "Bye bye! 😊",
+                "Have a great day ahead!",
+                "Take care and stay safe!",
+                "Hope to chat again soon!",
+                "Good night and sweet dreams! 🌙"
+            ]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "Thank you so much",
+                "Appreciate it",
+                "Thanks buddy",
+                "Many thanks",
+                "Thanks for helping",
+                "You helped me",
+                "Great thanks"
+            ],
+            "responses": [
+                "You're welcome! 😊",
+                "Happy to help!",
+                "No problem!",
+                "Anytime!",
+                "Glad I could help!",
+                "You're most welcome!",
+                "Always here for you!",
+                "It was my pleasure!",
+                "Thanks for chatting with me!",
+                "I appreciate your kindness too!"
+            ]
+        },
+
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "Who are you",
+                "Tell me your name",
+                "May I know your name",
+                "What should I call you",
+                "Do you have a name"
+            ],
+            "responses": [
+                "I am your AI chatbot assistant.",
+                "You can call me AI ChatBot.",
+                "I'm a simple AI chatbot built using Python.",
+                "I am an NLP-based chatbot.",
+                "I'm your virtual assistant.",
+                "People usually call me ChatBot 😊"
+            ]
+        },
+
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who created you",
+                "Who made you",
+                "Who developed you",
+                "Who built you",
+                "Who is your developer",
+                "Who programmed you"
+            ],
+            "responses": [
+                "I was created using Python, NLTK, and Streamlit.",
+                "A developer built me as an AI mini project.",
+                "I was developed as a Natural Language Processing project.",
+                "I was created for learning conversational AI.",
+                "I was built to help users chat and learn."
+            ]
+        },
+
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me",
+                "Help",
+                "I need help",
+                "Please help me",
+                "Can you assist me",
+                "Support me",
+                "Can you solve my doubt",
+                "Need assistance"
+            ],
+            "responses": [
+                "Of course! Tell me how I can help you.",
+                "Sure! I'm here to help.",
+                "Yes, tell me your question.",
+                "I'll try my best to help you.",
+                "Absolutely! Ask me anything.",
+                "Feel free to ask your doubts.",
+                "I’m always ready to help!"
+            ]
+        },
+
+        {
+            "tag": "ai",
+            "patterns": [
+                "What is AI",
+                "Explain artificial intelligence",
+                "Tell me about AI",
+                "Define AI"
+            ],
+            "responses": [
+                "AI stands for Artificial Intelligence.",
+                "Artificial Intelligence enables machines to think and learn like humans.",
+                "AI is used in chatbots, self-driving cars, and virtual assistants.",
+                "AI helps computers perform tasks that normally require human intelligence.",
+                "Artificial Intelligence is one of the fastest-growing technologies today."
+            ]
+        },
+
+        {
+            "tag": "python",
+            "patterns": [
+                "What is Python",
+                "Tell me about Python",
+                "Explain Python",
+                "Why is Python popular"
+            ],
+            "responses": [
+                "Python is a popular programming language.",
+                "Python is widely used in AI, web development, and automation.",
+                "Python is beginner-friendly and powerful.",
+                "Python is one of the most commonly used languages in data science.",
+                "Python is known for its simple and readable syntax."
+            ]
+        },
+
+        {
+            "tag": "streamlit",
+            "patterns": [
+                "What is Streamlit",
+                "Explain Streamlit",
+                "Tell me about Streamlit",
+                "Why use Streamlit"
+            ],
+            "responses": [
+                "Streamlit is a Python library used to build web apps easily.",
+                "Streamlit helps developers create interactive applications quickly.",
+                "Streamlit is popular for AI and data science projects.",
+                "Streamlit allows developers to create apps with minimal code."
+            ]
+        },
+
+        {
+            "tag": "nltk",
+            "patterns": [
+                "What is NLTK",
+                "Explain NLTK",
+                "Tell me about NLTK",
+                "Why use NLTK"
+            ],
+            "responses": [
+                "NLTK is a Natural Language Processing library in Python.",
+                "NLTK helps computers understand human language.",
+                "NLTK provides tools for tokenization, stemming, and lemmatization.",
+                "NLTK is commonly used in NLP projects."
+            ]
+        },
+
+        {
+            "tag": "machine_learning",
+            "patterns": [
+                "What is machine learning",
+                "Explain machine learning",
+                "Tell me about machine learning",
+                "Define machine learning"
+            ],
+            "responses": [
+                "Machine learning allows computers to learn from data.",
+                "Machine learning is a branch of Artificial Intelligence.",
+                "Machine learning helps systems improve automatically through experience.",
+                "Machine learning powers recommendation systems and predictions."
+            ]
+        },
+
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Say something funny",
+                "Tell a funny joke",
+                "Funny please",
+                "Crack a joke"
+            ],
+            "responses": [
+                "Why do programmers prefer dark mode? Because light attracts bugs! 😂",
+                "Why was the computer cold? Because it forgot to close Windows! 😄",
+                "Why do Java developers wear glasses? Because they can't C#! 🤣",
+                "Why did the computer go to the doctor? Because it caught a virus! 😂",
+                "Why was the math book sad? Because it had too many problems! 😆",
+                "Why did the developer go broke? Because he used up all his cache! 😂"
+            ]
+        },
+
+        {
+            "tag": "mood",
+            "patterns": [
+                "How are you",
+                "Are you fine",
+                "How do you feel",
+                "How's your day",
+                "Are you okay",
+                "What's your mood"
+            ],
+            "responses": [
+                "I'm doing great! 😊",
+                "I'm fine and ready to help you!",
+                "Feeling smart today 😎",
+                "I'm always happy to chat with you!",
+                "Doing awesome! Thanks for asking.",
+                "I'm energetic and ready for conversation!"
+            ]
+        },
+
+        {
+            "tag": "technology",
+            "patterns": [
+                "What is technology",
+                "Tell me about technology",
+                "Explain technology",
+                "Importance of technology"
+            ],
+            "responses": [
+                "Technology refers to tools and systems created to solve problems.",
+                "Technology helps make human life easier and smarter.",
+                "Modern technology includes AI, robotics, and cloud computing.",
+                "Technology plays a major role in communication and innovation."
+            ]
+        },
+
+        {
+            "tag": "motivation",
+            "patterns": [
+                "Motivate me",
+                "Give me motivation",
+                "I feel tired",
+                "Say something inspiring",
+                "I need inspiration",
+                "Encourage me"
+            ],
+            "responses": [
+                "Believe in yourself — you can achieve great things! 💪",
+                "Success comes from consistency and hard work.",
+                "Every expert was once a beginner.",
+                "Keep learning and never give up!",
+                "Small progress every day leads to big success.",
+                "Your future is created by what you do today."
+            ]
+        },
+
+        {
+            "tag": "study",
+            "patterns": [
+                "How to study",
+                "Study tips",
+                "How can I focus",
+                "Tips for learning",
+                "How to concentrate",
+                "Best study methods"
+            ],
+            "responses": [
+                "Take short breaks while studying to improve focus.",
+                "Practice consistently and revise regularly.",
+                "Avoid distractions and create a study schedule.",
+                "Learning becomes easier with daily practice.",
+                "Use active recall and revision techniques.",
+                "Set small goals while studying."
+            ]
+        },
+
+        {
+            "tag": "weather",
+            "patterns": [
+                "How is the weather",
+                "Tell me the weather",
+                "Is it raining",
+                "Weather today",
+                "Weather forecast"
+            ],
+            "responses": [
+                "Sorry, I cannot access live weather updates yet.",
+                "I currently do not support real-time weather information.",
+                "Weather functionality may be added in future versions.",
+                "Live weather updates are not available right now."
+            ]
+        }
+
+    ]
+}
