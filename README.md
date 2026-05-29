@@ -1,11 +1,11 @@
-# 🤖AI Chatbot Project
+## AI Chatbot Project
 
 This is a simple rule-based chatbot built using Python.  
 It responds to user inputs like greetings, questions, and basic conversations.
 
 ---
 
-## 📌 Features
+## Features
 - Greeting responses (Hi, Hello, etc.)
 - Basic question answering
 - Rule-based intent system
@@ -13,14 +13,14 @@ It responds to user inputs like greetings, questions, and basic conversations.
 
 ---
 
-## 🛠️ Technologies Used
-- Python 🐍
+## Technologies Used
+- Python 
 - NLTK (optional if used)
 - JSON (for intents, if used)
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository:
 ```bash
